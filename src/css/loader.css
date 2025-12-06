@@ -1,4 +1,4 @@
-.loader.hidden {
+.loader.hidden, .load-more.hidden {
     display: none;
 }
 

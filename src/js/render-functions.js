@@ -39,3 +39,13 @@ export const hideLoader = () => {
     const loader = document.querySelector('.loader');
     loader.classList.add('hidden');
 };
+
+export const showLoadMoreButton = () => {
+    const loadMoreBTN = document.querySelector('button[type="button"');
+    loadMoreBTN.classList.remove('hidden');
+};
+
+export const hideLoadMoreButton = () => {
+    const loadMoreBTN = document.querySelector('button[type="button"');
+    loadMoreBTN.classList.add('hidden');
+}

@@ -70,6 +70,7 @@ button:hover {
 
 .gallery > li {
     width: calc((100% - 48px) / 3);
+    height: 300px;
 }
 
 img {
@@ -97,3 +98,9 @@ img {
     text-align: center;
 }
 
+.load-more {
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    margin: 32px auto;
+}
