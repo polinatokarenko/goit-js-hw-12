@@ -20,7 +20,7 @@ let page = 1;
 let lastQuery = "";
 
 loadMoreBTN.addEventListener('click', async () => {
-  page += 1;       // 👉 інкремент ДО запиту
+  page += 1;
   showLoader();
 
   try {
@@ -91,7 +91,6 @@ form.addEventListener('submit', async (event) => {
     }
 
     createGallery(data.hits);
-    page += 1;
 
     const displayedItems = document.querySelectorAll('.gallery > li').length;
     if (displayedItems < data.totalHits) {
